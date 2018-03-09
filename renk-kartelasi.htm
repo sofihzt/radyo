@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script type="text/javascript" src="/Content/Themes/SBS-Orman/js/jquery-1.7.2.min.js"></script>
+
+    <title>Renk Kartelası</title>
+<meta name="author" content="Ulunet Yazilim ve Bilisim - www.ulunet.com.tr" />
+<meta name="generator" content="UluCMS" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+<meta http-equiv="content-type" content="text/html; charset=windows-1254" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="description" content="Renk Kartelası" />
+<meta name="keywords" content="Renk Kartelası" />
+
+	<link rel="shortcut icon" href="/favicon.ico?v=1" /> 
+	
+    <script src="/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+    
+	
+    <script src="/Content/Themes/SBS-Orman/site.js" type="text/javascript"></script>
+    
+    <script src="/Content/Themes/SBS-Orman/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+    <link href="/Content/Themes/SBS-Orman/jquery.fancybox-1.3.4.css?v=1" rel="stylesheet" type="text/css" />
+    
+    <link href="/Content/Themes/SBS-Orman/jquery.treeview.css?v=1" rel="stylesheet" type="text/css" />
+    <script src="/Content/Themes/SBS-Orman/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/Content/Themes/SBS-Orman/jquery.treeview.js" type="text/javascript"></script>
+    <script src="/Content/Themes/SBS-Orman/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" href="/Content/Themes/SBS-Orman/css/themes/default/default.css?v=1" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/Content/Themes/SBS-Orman/css/nivo-slider.css?v=1" type="text/css" media="screen" />
+	
+	<link href="/Content/Themes/SBS-Orman/css/reset.css?v=1" type="text/css" rel="stylesheet" media="all" />
+    <link href="/Content/Themes/SBS-Orman/css/stil.css?v=2" type="text/css" rel="stylesheet" media="all" />
+    <link href="/Content/Themes/SBS-Orman/css/superfish.css?v=1" type="text/css" rel="stylesheet" media="all" />
+    <script type="text/javascript" src="/Content/Themes/SBS-Orman/js/hoverIntent.js"></script>
+    <!--<script type="text/javascript" src="/Content/Themes/SBS-Orman/js/superfish.js"></script>-->
+	<script type="text/javascript">
+	function clearText(field){
+		if (field.defaultValue == field.value) field.value = '';
+		else if (field.value == '') field.value = field.defaultValue;
+	}
+	</script>
+</head>
+    <body style="margin-top: 0px;">
+	
+	
+        
+        
+		
+				
+        
+		
+		        
+<div id="wrapper"><div id="MenuBg"></div>	
+    <div id="header">
+
+		<div id="menu">
+		  <div id="menuItems">
+		       <ul class="sf-menu clearfix">
+<li class='ilkkademe clearfix'>            <a href="/tr/show/sbs-orman" >Anasayfa</a>
+</li><li class='ilkkademe clearfix'>            <a href="#" >Kurumsal</a>
+<ul>
+        <li id="altmenu"><span class="file"><a href="/tr/show/hakkimizda" >Hakkımızda</a>
+</span> </li>
+        <li id="altmenu"><span class="file"><a href="/tr/show/vizyonumuz" >Vizyonumuz</a>
+</span> </li>
+</ul>
+</li><li class='ilkkademe clearfix'>            <a href="#" >&#220;r&#252;nler</a>
+<ul>
+        <li id="altmenu"><span class="file"><a href="/tr/show/mdf" >MDF</a>
+</span> </li>
+        <li id="altmenu"><span class="file"><a href="/tr/show/mdflam" >MDFLAM</a>
+</span> </li>
+        <li id="altmenu"><span class="file"><a href="/tr/show/waxlam" >WAXLAM</a>
+</span> </li>
+</ul>
+</li><li class='ilkkademe clearfix'>            <a href="/tr/show/haberler" >Haberler</a>
+</li><li class='ilkkademe clearfix'>            <a href="/tr/show/insan-kaynaklari" >İ.K.</a>
+</li><li class='ilkkademe clearfix'>            <a href="/tr/show/iletisim" >İletişim</a>
+</li><li class='ilkkademe clearfix'>            <a href="#" >deneme</a>
+</li>    </ul>
+<!--<script type="text/javascript">
+ $(function(){
+   var path = location.pathname.substring(1);
+   if ( path )
+     $('.sf-menu a[href$="' + path + '"]').attr('class', 'selected');
+	 
+	$('ul.sf-menu').superfish({dropShadows:   false,speed:'fast',});
+	$('ul.sf-menu > li:last').addClass('lastLi');
+   });
+  
+</script>
+-->
+		   
+		  </div><div id="arama-kutusu"><script type="text/javascript">
+    $(function () {
+    	$("#searchButton").click(function () {
+
+            var sValue = $(".txtbox").val();
+
+            if (sValue == undefined || sValue.length == 0) {
+                sValue = "null";
+				return false;
+            }
+            var url = $(this).attr("reUrl");
+
+            window.location = url.replace("__", sValue);
+        });
+		
+		
+        $(".txtbox").keyup(function (e) {
+            if (e.keyCode == 13) {
+                var sValue = $(".txtbox").val();
+
+                if (sValue == undefined || sValue.length == 0) {
+                    sValue = "null";
+					return false;
+                }
+                var url = $("#searchButton").attr("reUrl");
+
+                window.location = url.replace("__", sValue);
+            }
+        });
+		
+		
+    });
+</script>
+
+
+<div id="searchwrapper">
+<form action="/Site/Search?languageCode=tr" method="post"><input class="required txtbox" id="text" name="text" placeholder="" type="text" value="" />        <button type="button" class="submitButton" id="searchButton" reUrl="/tr/search/__">
+            Ara</button>
+</form></div>
+</div>
+		</div>
+
+		<div class="cl"></div>
+    </div>
+    <div id="contents" class="clearfix">
+																		   
+
+
+
+
+<div class="hero">DÜZ RENKLER</div><script type="text/javascript">
+    $(function () {
+        $("a[rel=gallery21]").fancybox({
+            'transitionIn': 'none',
+            'transitionOut': 'none',
+            'titlePosition': 'over',
+            'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
+                return '<span id="fancybox-title-over">' + (currentIndex + 1) + ' / ' + currentArray.length + ' ' + title + '</span>';
+            }
+        });
+    });
+</script>
+<h2 style="display:none;">D&#220;Z RENKLER</h2>
+<div id="divGallery">
+    <a href="/Uploads/D100-BEYAZ.jpg" rel=gallery21 title="D100 - BEYAZ">
+        <img src="/Uploads/_thumbs/D100-BEYAZ.jpg" />
+		<strong>D100 - BEYAZ</strong>
+	</a>
+    <a href="/Uploads/D101-KAR-BEYAZ.jpg" rel=gallery21 title="D101 - KAR BEYAZ">
+        <img src="/Uploads/_thumbs/D101-KAR-BEYAZ.jpg" />
+		<strong>D101 - KAR BEYAZ</strong>
+	</a>
+    <a href="/Uploads/D102-ELVİRA-BEJ.jpg" rel=gallery21 title="D102 - ELVİRA BEJ">
+        <img src="/Uploads/_thumbs/D102-ELVİRA-BEJ.jpg" />
+		<strong>D102 - ELVİRA BEJ</strong>
+	</a>
+    <a href="/Uploads/D103-BEJ_2.jpg" rel=gallery21 title="D103 - BEJ">
+        <img src="/Uploads/_thumbs/D103-BEJ_2.jpg" />
+		<strong>D103 - BEJ</strong>
+	</a>
+    <a href="/Uploads/D105-LİLA.jpg" rel=gallery21 title="D105 - LİLA">
+        <img src="/Uploads/_thumbs/D105-LİLA.jpg" />
+		<strong>D105 - LİLA</strong>
+	</a>
+    <a href="/Uploads/D106-PEMBE_2.jpg" rel=gallery21 title="D106 - PEMBE">
+        <img src="/Uploads/_thumbs/D106-PEMBE_2.jpg" />
+		<strong>D106 - PEMBE</strong>
+	</a>
+    <a href="/Uploads/D107-PORTAKAL.jpg" rel=gallery21 title="D107 - PORTAKAL">
+        <img src="/Uploads/_thumbs/D107-PORTAKAL.jpg" />
+		<strong>D107 - PORTAKAL</strong>
+	</a>
+    <a href="/Uploads/D108-MAVİ.jpg" rel=gallery21 title="D108 - MAVİ">
+        <img src="/Uploads/_thumbs/D108-MAVİ.jpg" />
+		<strong>D108 - MAVİ</strong>
+	</a>
+    <a href="/Uploads/D109-LACİVERT.jpg" rel=gallery21 title="D109 - LACİVERT">
+        <img src="/Uploads/_thumbs/D109-LACİVERT.jpg" />
+		<strong>D109 - LACİVERT</strong>
+	</a>
+    <a href="/Uploads/D110-GRİ.jpg" rel=gallery21 title="D110 - GRİ">
+        <img src="/Uploads/_thumbs/D110-GRİ.jpg" />
+		<strong>D110 - GRİ</strong>
+	</a>
+    <a href="/Uploads/D111-PLATİN_2.jpg" rel=gallery21 title="D111 - PLATİN">
+        <img src="/Uploads/_thumbs/D111-PLATİN_2.jpg" />
+		<strong>D111 - PLATİN</strong>
+	</a>
+    <a href="/Uploads/D112-SİYAH_2.jpg" rel=gallery21 title="D112 - SİYAH">
+        <img src="/Uploads/_thumbs/D112-SİYAH_2.jpg" />
+		<strong>D112 - SİYAH</strong>
+	</a>
+    <a href="/Uploads/D113-KIRMIZI.jpg" rel=gallery21 title="D113 - KIRMIZI">
+        <img src="/Uploads/_thumbs/D113-KIRMIZI.jpg" />
+		<strong>D113 - KIRMIZI</strong>
+	</a>
+    <a href="/Uploads/D114-YEŞİL.jpg" rel=gallery21 title="D114 - YEŞİL">
+        <img src="/Uploads/_thumbs/D114-YEŞİL.jpg" />
+		<strong>D114 - YEŞİL</strong>
+	</a>
+</div><br /><div style="clear:both"></div><br /><div class="hero">FANTAZİ DESENLER</div><script type="text/javascript">
+    $(function () {
+        $("a[rel=gallery22]").fancybox({
+            'transitionIn': 'none',
+            'transitionOut': 'none',
+            'titlePosition': 'over',
+            'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
+                return '<span id="fancybox-title-over">' + (currentIndex + 1) + ' / ' + currentArray.length + ' ' + title + '</span>';
+            }
+        });
+    });
+</script>
+<h2 style="display:none;">FANTAZİ DESENLER</h2>
+<div id="divGallery">
+    <a href="/Uploads/D115-ONIX-BEYAZ_2.jpg" rel=gallery22 title="D115 - ONIX BEYAZ">
+        <img src="/Uploads/_thumbs/D115-ONIX-BEYAZ_2.jpg" />
+		<strong>D115 - ONIX BEYAZ</strong>
+	</a>
+    <a href="/Uploads/A322 YAĞMUR SİYAH.jpg" rel=gallery22 title="A322 - YAĞMUR SİYAH">
+        <img src="/Uploads/_thumbs/A322 YAĞMUR SİYAH.jpg" />
+		<strong>A322 - YAĞMUR SİYAH</strong>
+	</a>
+    <a href="/Uploads/A323 YAĞMUR BEYAZ.jpg" rel=gallery22 title="A323 - YAĞMUR BEYAZ">
+        <img src="/Uploads/_thumbs/A323 YAĞMUR BEYAZ.jpg" />
+		<strong>A323 - YAĞMUR BEYAZ</strong>
+	</a>
+</div><br /><div style="clear:both"></div><br /><div class="hero">AHŞAP DESENLER</div><script type="text/javascript">
+    $(function () {
+        $("a[rel=gallery23]").fancybox({
+            'transitionIn': 'none',
+            'transitionOut': 'none',
+            'titlePosition': 'over',
+            'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
+                return '<span id="fancybox-title-over">' + (currentIndex + 1) + ' / ' + currentArray.length + ' ' + title + '</span>';
+            }
+        });
+    });
+</script>
+<h2 style="display:none;">AHŞAP DESENLER</h2>
+<div id="divGallery">
+    <a href="/Uploads/A200-KOYU-ARMUT_2.jpg" rel=gallery23 title="A200 - KOYU ARMUT">
+        <img src="/Uploads/_thumbs/A200-KOYU-ARMUT_2.jpg" />
+		<strong>A200 - KOYU ARMUT</strong>
+	</a>
+    <a href="/Uploads/A201 ARMUT.jpg" rel=gallery23 title="A201 - ARMUT">
+        <img src="/Uploads/_thumbs/A201 ARMUT.jpg" />
+		<strong>A201 - ARMUT</strong>
+	</a>
+    <a href="/Uploads/A202 YENİ CEVİZ.jpg" rel=gallery23 title="A202 - YENİ CEVİZ">
+        <img src="/Uploads/_thumbs/A202 YENİ CEVİZ.jpg" />
+		<strong>A202 - YENİ CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A203 LATİN CEVİZ.jpg" rel=gallery23 title="A203 LATİN CEVİZ">
+        <img src="/Uploads/_thumbs/A203 LATİN CEVİZ.jpg" />
+		<strong>A203 LATİN CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A204 &#199;ELTİK&#199;İ CEVİZ.jpg" rel=gallery23 title="A204 - &#199;ELTİK&#199;İ CEVİZ">
+        <img src="/Uploads/_thumbs/A204 &#199;ELTİK&#199;İ CEVİZ.jpg" />
+		<strong>A204 - &#199;ELTİK&#199;İ CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A205-KOYU-CEVİZ_2.jpg" rel=gallery23 title="A205 - KOYU CEVİZ">
+        <img src="/Uploads/_thumbs/A205-KOYU-CEVİZ_2.jpg" />
+		<strong>A205 - KOYU CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A206 ECCO CEVİZ.jpg" rel=gallery23 title="A206 - ECCO CEVİZ">
+        <img src="/Uploads/_thumbs/A206 ECCO CEVİZ.jpg" />
+		<strong>A206 - ECCO CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A207--LYON-CEVİZ_2.jpg" rel=gallery23 title="A207 - LYON CEVİZ">
+        <img src="/Uploads/_thumbs/A207--LYON-CEVİZ_2.jpg" />
+		<strong>A207 - LYON CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A208 BURSA CEVİZ.jpg" rel=gallery23 title="A208 BURSA CEVİZ">
+        <img src="/Uploads/_thumbs/A208 BURSA CEVİZ.jpg" />
+		<strong>A208 BURSA CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A209 S&#214;KE CEVİZ.jpg" rel=gallery23 title="A209 S&#214;KE CEVİZ">
+        <img src="/Uploads/_thumbs/A209 S&#214;KE CEVİZ.jpg" />
+		<strong>A209 S&#214;KE CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A210 VICTORIA CEVİZ.jpg" rel=gallery23 title="A210 - VICTORIA CEVİZ">
+        <img src="/Uploads/_thumbs/A210 VICTORIA CEVİZ.jpg" />
+		<strong>A210 - VICTORIA CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A211 MAGGI CEVIZ.jpg" rel=gallery23 title="A211 - MAGGI CEVIZ">
+        <img src="/Uploads/_thumbs/A211 MAGGI CEVIZ.jpg" />
+		<strong>A211 - MAGGI CEVIZ</strong>
+	</a>
+    <a href="/Uploads/A212 MARİA CEVİZ.jpg" rel=gallery23 title="A212 - MARİA CEVİZ">
+        <img src="/Uploads/_thumbs/A212 MARİA CEVİZ.jpg" />
+		<strong>A212 - MARİA CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A213 KIZIL MAHOGANY.jpg" rel=gallery23 title="A213 - KIZIL MAHOGANY">
+        <img src="/Uploads/_thumbs/A213 KIZIL MAHOGANY.jpg" />
+		<strong>A213 - KIZIL MAHOGANY</strong>
+	</a>
+    <a href="/Uploads/A214 KATAR MAHOGANY.jpg" rel=gallery23 title="A214 - KATAR MAHOGANY">
+        <img src="/Uploads/_thumbs/A214 KATAR MAHOGANY.jpg" />
+		<strong>A214 - KATAR MAHOGANY</strong>
+	</a>
+    <a href="/Uploads/A215-A&#199;IK-K&#214;KNAR_2.jpg" rel=gallery23 title="A215 - A&#199;IK K&#214;KNAR">
+        <img src="/Uploads/_thumbs/A215-A&#199;IK-K&#214;KNAR_2.jpg" />
+		<strong>A215 - A&#199;IK K&#214;KNAR</strong>
+	</a>
+    <a href="/Uploads/A217 KIZIL K&#214;KNAR.jpg" rel=gallery23 title="A216 - KOYU K&#214;KNAR">
+        <img src="/Uploads/_thumbs/A217 KIZIL K&#214;KNAR.jpg" />
+		<strong>A216 - KOYU K&#214;KNAR</strong>
+	</a>
+    <a href="/Uploads/A217 KIZIL K&#214;KNAR.jpg" rel=gallery23 title="A217 - KIZIL K&#214;KNAR">
+        <img src="/Uploads/_thumbs/A217 KIZIL K&#214;KNAR.jpg" />
+		<strong>A217 - KIZIL K&#214;KNAR</strong>
+	</a>
+    <a href="/Uploads/A218-OSMANLI-CEVİZ_2.jpg" rel=gallery23 title="A218 - OSMANLI CEVİZ">
+        <img src="/Uploads/_thumbs/A218-OSMANLI-CEVİZ_2.jpg" />
+		<strong>A218 - OSMANLI CEVİZ</strong>
+	</a>
+    <a href="/Uploads/A300 MONTREAL AK&#199;AAĞA&#199;.jpg" rel=gallery23 title="A300 - MONTREAL AK&#199;AAĞA&#199;">
+        <img src="/Uploads/_thumbs/A300 MONTREAL AK&#199;AAĞA&#199;.jpg" />
+		<strong>A300 - MONTREAL AK&#199;AAĞA&#199;</strong>
+	</a>
+    <a href="/Uploads/A301 SAMSUN AK&#199;AAĞA&#199;.jpg" rel=gallery23 title="A301 - SAMSUN AK&#199;AAĞA&#199;">
+        <img src="/Uploads/_thumbs/A301 SAMSUN AK&#199;AAĞA&#199;.jpg" />
+		<strong>A301 - SAMSUN AK&#199;AAĞA&#199;</strong>
+	</a>
+    <a href="/Uploads/A302-A&#199;IK-ZEBRANO_2.jpg" rel=gallery23 title="A302 - A&#199;IK ZEBRANO">
+        <img src="/Uploads/_thumbs/A302-A&#199;IK-ZEBRANO_2.jpg" />
+		<strong>A302 - A&#199;IK ZEBRANO</strong>
+	</a>
+    <a href="/Uploads/A303 KOYU ZEBRANO.jpg" rel=gallery23 title="A303 - KOYU ZEBRANO">
+        <img src="/Uploads/_thumbs/A303 KOYU ZEBRANO.jpg" />
+		<strong>A303 - KOYU ZEBRANO</strong>
+	</a>
+    <a href="/Uploads/A304 KOYU KAYIN.jpg" rel=gallery23 title="A304 - KOYU KAYIN">
+        <img src="/Uploads/_thumbs/A304 KOYU KAYIN.jpg" />
+		<strong>A304 - KOYU KAYIN</strong>
+	</a>
+    <a href="/Uploads/A305 LARİCİNA.jpg" rel=gallery23 title="A305 - LARİCİNA">
+        <img src="/Uploads/_thumbs/A305 LARİCİNA.jpg" />
+		<strong>A305 - LARİCİNA</strong>
+	</a>
+    <a href="/Uploads/A306-KAYIN_2.jpg" rel=gallery23 title="A306 - KAYIN">
+        <img src="/Uploads/_thumbs/A306-KAYIN_2.jpg" />
+		<strong>A306 - KAYIN</strong>
+	</a>
+    <a href="/Uploads/A308 BARCELONA KİRAZ.jpg" rel=gallery23 title="A308 - BARCELONA KİRAZ">
+        <img src="/Uploads/_thumbs/A308 BARCELONA KİRAZ.jpg" />
+		<strong>A308 - BARCELONA KİRAZ</strong>
+	</a>
+    <a href="/Uploads/A309 NAPOLYON KİRAZ.jpg" rel=gallery23 title="A309 - NAPOLYON KİRAZ">
+        <img src="/Uploads/_thumbs/A309 NAPOLYON KİRAZ.jpg" />
+		<strong>A309 - NAPOLYON KİRAZ</strong>
+	</a>
+    <a href="/Uploads/A310 VENGE.jpg" rel=gallery23 title="A310 - VENGE">
+        <img src="/Uploads/_thumbs/A310 VENGE.jpg" />
+		<strong>A310 - VENGE</strong>
+	</a>
+    <a href="/Uploads/A311 A&#199;IK ANTİK.jpg" rel=gallery23 title="A311 - A&#199;IK ANTİK">
+        <img src="/Uploads/_thumbs/A311 A&#199;IK ANTİK.jpg" />
+		<strong>A311 - A&#199;IK ANTİK</strong>
+	</a>
+    <a href="/Uploads/A312 KOYU ANTİIK.jpg" rel=gallery23 title="A312 - KOYU ANTİIK">
+        <img src="/Uploads/_thumbs/A312 KOYU ANTİIK.jpg" />
+		<strong>A312 - KOYU ANTİIK</strong>
+	</a>
+    <a href="/Uploads/A313-ABANOZ_2.jpg" rel=gallery23 title="A313 - ABANOZ">
+        <img src="/Uploads/_thumbs/A313-ABANOZ_2.jpg" />
+		<strong>A313 - ABANOZ</strong>
+	</a>
+    <a href="/Uploads/A314 BAMBU.jpg" rel=gallery23 title="A314 - BAMBU">
+        <img src="/Uploads/_thumbs/A314 BAMBU.jpg" />
+		<strong>A314 - BAMBU</strong>
+	</a>
+    <a href="/Uploads/A315 AK MEŞE.jpg" rel=gallery23 title="A315 - AK MEŞE">
+        <img src="/Uploads/_thumbs/A315 AK MEŞE.jpg" />
+		<strong>A315 - AK MEŞE</strong>
+	</a>
+    <a href="/Uploads/A317 BELLY.jpg" rel=gallery23 title="A317 - BELLY">
+        <img src="/Uploads/_thumbs/A317 BELLY.jpg" />
+		<strong>A317 - BELLY</strong>
+	</a>
+    <a href="/Uploads/A318 TEAK.jpg" rel=gallery23 title="A318 - TEAK">
+        <img src="/Uploads/_thumbs/A318 TEAK.jpg" />
+		<strong>A318 - TEAK</strong>
+	</a>
+    <a href="/Uploads/A319 G&#220;M&#220;Ş MEŞE.jpg" rel=gallery23 title="A319 - G&#220;M&#220;Ş MEŞE">
+        <img src="/Uploads/_thumbs/A319 G&#220;M&#220;Ş MEŞE.jpg" />
+		<strong>A319 - G&#220;M&#220;Ş MEŞE</strong>
+	</a>
+    <a href="/Uploads/A320 DOĞAL HUŞ.jpg" rel=gallery23 title="A320 - DOĞAL HUŞ">
+        <img src="/Uploads/_thumbs/A320 DOĞAL HUŞ.jpg" />
+		<strong>A320 - DOĞAL HUŞ</strong>
+	</a>
+    <a href="/Uploads/A321-CORDOBA_2.jpg" rel=gallery23 title="A321-CORDOBA">
+        <img src="/Uploads/_thumbs/A321-CORDOBA_2.jpg" />
+		<strong>A321-CORDOBA</strong>
+	</a>
+    <a href="/Uploads/A324-DOĞAL-MEŞE_2.jpg" rel=gallery23 title="A324 - DOĞAL MEŞE">
+        <img src="/Uploads/_thumbs/A324-DOĞAL-MEŞE_2.jpg" />
+		<strong>A324 - DOĞAL MEŞE</strong>
+	</a>
+    <a href="/Uploads/A325 FINELINE.jpg" rel=gallery23 title="A325 - FINELINE">
+        <img src="/Uploads/_thumbs/A325 FINELINE.jpg" />
+		<strong>A325 - FINELINE</strong>
+	</a>
+    <a href="/Uploads/A326 KIZIL AĞA&#199;.jpg" rel=gallery23 title="A326 - KIZIL AĞA&#199;">
+        <img src="/Uploads/_thumbs/A326 KIZIL AĞA&#199;.jpg" />
+		<strong>A326 - KIZIL AĞA&#199;</strong>
+	</a>
+    <a href="/Uploads/A327-TANGANICA_2.jpg" rel=gallery23 title="A327 - TANGANICA">
+        <img src="/Uploads/_thumbs/A327-TANGANICA_2.jpg" />
+		<strong>A327 - TANGANICA</strong>
+	</a>
+    <a href="/Uploads/A328  RAFIA KREM.jpg" rel=gallery23 title="A328 - RAFIA KREM">
+        <img src="/Uploads/_thumbs/A328  RAFIA KREM.jpg" />
+		<strong>A328 - RAFIA KREM</strong>
+	</a>
+    <a href="/Uploads/A329 RAFIA KAHVE.jpg" rel=gallery23 title="A329 - RAFIA KAHVE">
+        <img src="/Uploads/_thumbs/A329 RAFIA KAHVE.jpg" />
+		<strong>A329 - RAFIA KAHVE</strong>
+	</a>
+    <a href="/Uploads/A330 ARUSHA VENGE.jpg" rel=gallery23 title="A330 - ARUSHA VENGE">
+        <img src="/Uploads/_thumbs/A330 ARUSHA VENGE.jpg" />
+		<strong>A330 - ARUSHA VENGE</strong>
+	</a>
+    <a href="/Uploads/A331-KOYU-MEŞE_2.jpg" rel=gallery23 title="A331 - KOYU MEŞE">
+        <img src="/Uploads/_thumbs/A331-KOYU-MEŞE_2.jpg" />
+		<strong>A331 - KOYU MEŞE</strong>
+	</a>
+    <a href="/Uploads/A332 ZEBRAWOOD.jpg" rel=gallery23 title="A332 - ZEBRAWOOD">
+        <img src="/Uploads/_thumbs/A332 ZEBRAWOOD.jpg" />
+		<strong>A332 - ZEBRAWOOD</strong>
+	</a>
+</div><br /><div style="clear:both"></div> 
+</div></div>
+    </div>
+    <div id="footer">
+        <div class="footer-content">
+                <ul class="sf-menu clearfix">
+    </ul>
+<!--<script type="text/javascript">
+ $(function(){
+   var path = location.pathname.substring(1);
+   if ( path )
+     $('.sf-menu a[href$="' + path + '"]').attr('class', 'selected');
+	 
+	$('ul.sf-menu').superfish({dropShadows:   false,speed:'fast',});
+	$('ul.sf-menu > li:last').addClass('lastLi');
+   });
+  
+</script>
+-->
+				<div class="pr">
+					<a href="http://www.ulunet.com.tr" target="_blank" class="ulunet">
+						<img src="/Content/Themes/SBS-Orman/images/ulunet-logo.png" alt="Ulunet Yazılım ve Bilişim Teknolojileri San. ve Tic. Ltd. Şti. " /></a>
+				</div>
+				
+				<div id="copyright" ></div>
+				
+				<div id="social">
+								<!-- AddThis Button BEGIN -->
+									<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+										<a class="addthis_button_preferred_1"></a>
+										<a class="addthis_button_preferred_2"></a>
+										<a class="addthis_button_compact"></a>
+										<a class="addthis_counter addthis_bubble_style"></a>
+									</div>
+										<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-503b300e61918428"></script>
+								<!-- AddThis Button END -->
+						</div>
+						<table border="0"><tbody><tr><td valign="top" align="center"><span style="font-size: small; color: #333333; font-family: arial, helvetica, sans-serif;"><img src="/uploads/SBS-Orman-SmallLogo.png" width="100" height="28" />&nbsp;&nbsp;</span></td><td valign="middle" align="center"><span style="font-size: small; color: #663604; font-family: arial, helvetica, sans-serif;"><strong style="font-size: x-small;"><span style="font-family: verdana, geneva;">T&uuml;m Hakları SBS Orman &Uuml;r&uuml;n Yapı Malz. İmal. San. ve Tic. A.Ş.'ye aittir&nbsp;2012 &copy;</span></strong></span></td></tr></tbody></table><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><strong>&nbsp;</strong></span>
+               		                
+	                
+            	
+		</div>
+ 	</div>
+
+    </body>
+</html>
