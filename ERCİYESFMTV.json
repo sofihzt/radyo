@@ -1,0 +1,3779 @@
+{
+    "AuxAudioDevice1": {
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_input_capture",
+        "mixers": 255,
+        "monitoring_type": 2,
+        "muted": false,
+        "name": "Mic/Aux",
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "{0.0.1.00000000}.{020ffa6a-da80-4b85-af86-451b0bc2ad50}"
+        },
+        "sync": 0,
+        "volume": 0.88473594188690186
+    },
+    "DesktopAudioDevice1": {
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_output_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": true,
+        "name": "Masaüstü Ses",
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "{0.0.0.00000000}.{4b7afb55-ca65-4ddb-9cba-ea8ba59f6ead}"
+        },
+        "sync": 0,
+        "volume": 0.0
+    },
+    "current_program_scene": "CANLI YAYIN İSTEK SAATİ",
+    "current_scene": "CANLI YAYIN İSTEK SAATİ",
+    "current_transition": "Kes",
+    "modules": {
+        "InstantReplay": {
+            "hotkey": []
+        },
+        "auto-scene-switcher": {
+            "active": false,
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "switches": []
+        },
+        "captions": {
+            "enabled": false,
+            "lang_id": 1055,
+            "provider": "mssapi",
+            "source": ""
+        },
+        "output-timer": {
+            "autoStartRecordTimer": false,
+            "autoStartStreamTimer": false,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30
+        },
+        "replayCallout_data": {
+            "Amute": false,
+            "Dmute": false,
+            "enable": false,
+            "pause": 0,
+            "replay": 0,
+            "scene": "",
+            "wait": 0
+        }
+    },
+    "name": "ERCİYESFM-TV",
+    "preview_locked": false,
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 1,
+            "name": "Kes"
+        },
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "name": "Soldur"
+        }
+    ],
+    "saved_preview_projectors": [
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        }
+    ],
+    "saved_projectors": [
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        }
+    ],
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "scene_order": [
+        {
+            "name": "ERCİYES FM BAND"
+        },
+        {
+            "name": "HABER SAATİ"
+        },
+        {
+            "name": "CANLI YAYIN İSTEK SAATİ"
+        }
+    ],
+    "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "VLCSource.PlayPause": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "vlc_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "haber2",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Kaydır",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "speed_x": 30.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "kayar hava",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/gif/hava durmu.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "mobese",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "height": 300,
+                "is_local_file": true,
+                "local_file": "C:/Users/user/Documents/RADYO TV,/link/mobese.html",
+                "width": 300
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "haber başlıkk",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/erhaber.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Chroma Anahtarı",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "key_color_type": "blue"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "arka efekt",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/radyo1.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "döviz",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "is_local_file": true,
+                "local_file": "C:/Users/user/Documents/RADYO TV,/link/döviz.html"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "sarı tema",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 65535,
+                "bk_opacity": 80,
+                "text": "_________________________________"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "slagon",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "is_local_file": true,
+                "local_file": "C:/Users/user/Documents/RADYO TV,/link/slagon.html",
+                "url": "http://www.iha.com.tr/tum-haberler.php"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Kaydır",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "speed_x": 50.0,
+                        "speed_y": 0.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "yayın alt yazı",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 255,
+                "bk_opacity": 80,
+                "color": 16777215,
+                "font": {
+                    "face": "Bookman Old Style",
+                    "flags": 1,
+                    "size": 48,
+                    "style": ""
+                },
+                "read_from_file": false,
+                "text": "....ERCİYES OTO SERVİSİ SPONSORLUGUNDA BİRLİKTELİGİMİZ BASLADİ........"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Kaydır",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "speed_x": 50.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "yayın üst yazı",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 255,
+                "bk_opacity": 80,
+                "color": 16777215,
+                "font": {
+                    "face": "Tahoma",
+                    "flags": 1,
+                    "size": 36,
+                    "style": ""
+                },
+                "text": "DEVELİ'MİZİN EN ÇOK SEVİLEN MMÜZİSYENLERİNDEN ADEM KILIÇ PAZARTESİ AKŞAMI CANLI YAYIN KONUĞUMUZ OLACAKTIR.....BİZİ DİNLEMEYE DEVAM EDİN..."
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "VLCSource.PlayPause": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "vlc_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "efekt video",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "playlist": [
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/haberler/Develi Belediyesi Tanıtım Filmi 2017.mp4"
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Kaydır",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "speed_x": 3.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "carka tema",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/logo.jpg"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.98 h": [],
+                "libobs.hide_scene_item.BAYRAK": [],
+                "libobs.hide_scene_item.Canlı yayın 2": [],
+                "libobs.hide_scene_item.Görüntü": [],
+                "libobs.hide_scene_item.Hareketli yazı": [],
+                "libobs.hide_scene_item.KAYIP": [],
+                "libobs.hide_scene_item.analogo": [],
+                "libobs.hide_scene_item.arka efekt": [],
+                "libobs.hide_scene_item.canlı yayın": [],
+                "libobs.hide_scene_item.carka tema": [],
+                "libobs.hide_scene_item.döviz": [],
+                "libobs.hide_scene_item.efekt video": [],
+                "libobs.hide_scene_item.haber başlıkk": [],
+                "libobs.hide_scene_item.haber2": [],
+                "libobs.hide_scene_item.hava durumu": [],
+                "libobs.hide_scene_item.kayar hava": [],
+                "libobs.hide_scene_item.mobese": [],
+                "libobs.hide_scene_item.sarı tema": [],
+                "libobs.hide_scene_item.slagon": [],
+                "libobs.hide_scene_item.son dakika video haber": [],
+                "libobs.hide_scene_item.sponsor resim slayt": [],
+                "libobs.hide_scene_item.yayın alt yazı": [],
+                "libobs.hide_scene_item.yayın üst yazı": [],
+                "libobs.show_scene_item.98 h": [],
+                "libobs.show_scene_item.BAYRAK": [],
+                "libobs.show_scene_item.Canlı yayın 2": [],
+                "libobs.show_scene_item.Görüntü": [],
+                "libobs.show_scene_item.Hareketli yazı": [],
+                "libobs.show_scene_item.KAYIP": [],
+                "libobs.show_scene_item.analogo": [],
+                "libobs.show_scene_item.arka efekt": [],
+                "libobs.show_scene_item.canlı yayın": [],
+                "libobs.show_scene_item.carka tema": [],
+                "libobs.show_scene_item.döviz": [],
+                "libobs.show_scene_item.efekt video": [],
+                "libobs.show_scene_item.haber başlıkk": [],
+                "libobs.show_scene_item.haber2": [],
+                "libobs.show_scene_item.hava durumu": [],
+                "libobs.show_scene_item.kayar hava": [],
+                "libobs.show_scene_item.mobese": [],
+                "libobs.show_scene_item.sarı tema": [],
+                "libobs.show_scene_item.slagon": [],
+                "libobs.show_scene_item.son dakika video haber": [],
+                "libobs.show_scene_item.sponsor resim slayt": [],
+                "libobs.show_scene_item.yayın alt yazı": [],
+                "libobs.show_scene_item.yayın üst yazı": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "CANLI YAYIN İSTEK SAATİ",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 52,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "locked": true,
+                        "name": "carka tema",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 13,
+                        "locked": true,
+                        "name": "sponsor resim slayt",
+                        "pos": {
+                            "x": -153.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 52,
+                        "locked": false,
+                        "name": "KAYIP",
+                        "pos": {
+                            "x": 0.0,
+                            "y": -44.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.625,
+                            "y": 0.62520456314086914
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 18,
+                        "locked": true,
+                        "name": "son dakika video haber",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 553.0,
+                            "y": 427.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 42,
+                        "locked": false,
+                        "name": "mobese",
+                        "pos": {
+                            "x": 127.0,
+                            "y": -506.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 12,
+                        "locked": true,
+                        "name": "canlı yayın",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "locked": true,
+                        "name": "Canlı yayın 2",
+                        "pos": {
+                            "x": 860.0,
+                            "y": 137.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.3125,
+                            "y": 1.3125
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "locked": true,
+                        "name": "efekt video",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": true,
+                        "name": "BAYRAK",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.92000001668930054,
+                            "y": 0.91715973615646362
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "locked": true,
+                        "name": "yayın üst yazı",
+                        "pos": {
+                            "x": 475.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.2927228212356567,
+                            "y": 1.3055555820465088
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 6,
+                        "locked": true,
+                        "name": "yayın alt yazı",
+                        "pos": {
+                            "x": 212.0,
+                            "y": 657.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.3122222423553467,
+                            "y": 1.3125
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 36,
+                        "locked": true,
+                        "name": "arka efekt",
+                        "pos": {
+                            "x": 212.0,
+                            "y": 619.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.15134459733963013,
+                            "y": 0.15111111104488373
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 7,
+                        "locked": true,
+                        "name": "98 h",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 664.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 10,
+                        "locked": true,
+                        "name": "analogo",
+                        "pos": {
+                            "x": 1008.0,
+                            "y": 47.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 17,
+                        "locked": true,
+                        "name": "hava durumu",
+                        "pos": {
+                            "x": -247.0,
+                            "y": 449.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.99250000715255737,
+                            "y": 0.99333333969116211
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 19,
+                        "locked": true,
+                        "name": "Hareketli yazı",
+                        "pos": {
+                            "x": 290.98504638671875,
+                            "y": 593.66668701171875
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.83659380674362183,
+                            "y": 0.83333331346511841
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 26,
+                        "locked": true,
+                        "name": "sarı tema",
+                        "pos": {
+                            "x": 420.0,
+                            "y": 47.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 25,
+                        "locked": true,
+                        "name": "slagon",
+                        "pos": {
+                            "x": 435.0,
+                            "y": 47.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.6549999713897705,
+                            "y": 1.6549999713897705
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 28,
+                        "locked": true,
+                        "name": "döviz",
+                        "pos": {
+                            "x": 1079.0,
+                            "y": 533.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.2000000476837158,
+                            "y": 1.2000000476837158
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 37,
+                        "locked": true,
+                        "name": "haber başlıkk",
+                        "pos": {
+                            "x": 253.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.61838442087173462,
+                            "y": 0.61842107772827148
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 46,
+                        "locked": true,
+                        "name": "kayar hava",
+                        "pos": {
+                            "x": 307.0,
+                            "y": 579.47149658203125
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.73536300659179688,
+                            "y": 0.73575127124786377
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 49,
+                        "locked": true,
+                        "name": "haber2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 650.0,
+                            "y": 158.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 51,
+                        "locked": true,
+                        "name": "Görüntü",
+                        "pos": {
+                            "x": 630.0,
+                            "y": 525.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Canlı yayın 2",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "last_video_device_id": "A4 TECH PC Camera H:\\\\?\\usb#22vid_0ac8&pid_303b#225&20c67efd&0&9#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_device_id": "A4 TECH PC Camera H:\\\\?\\usb#22vid_0ac8&pid_303b#225&20c67efd&0&9#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "VLCSource.PlayPause": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "vlc_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "haber 5",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "playlist": [
+                    {
+                        "value": "C:/Users/user/Desktop/sarıkamı anma proğramı/AndroVid_join_4829.mp4"
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 0.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "VLCSource.PlayPause": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "vlc_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "haber 4",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "playlist": [
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/haberler/Develi Belediyesi Tanıtım Filmi 2017.mp4"
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "VLCSource.PlayPause": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "vlc_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "haber 3",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "playlist": [
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/haberler/8 Ocak 2018.mp4"
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "VLCSource.PlayPause": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "vlc_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "haber 2",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "playlist": [
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/haberler/Develi Kaymakamı Murat Duru Erciyes'de Düzenlenen Sarıkamış Şehitlerini Anma Proğramına Katıldı.mp4"
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Haber metin",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 16711680,
+                "bk_opacity": 60,
+                "font": {
+                    "face": "Tahoma",
+                    "flags": 0,
+                    "size": 36,
+                    "style": ""
+                },
+                "text": "Develi de olay-Fenese mahallesin de Kız kaçırma..."
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "sn",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/gif/son dakika.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Haber saati",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 255,
+                "bk_opacity": 80,
+                "font": {
+                    "face": "Arial Black",
+                    "flags": 1,
+                    "size": 36,
+                    "style": ""
+                },
+                "text": "Erciyes fm haber"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "98 h",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/98.2.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "SlideShow.NextSlide": [],
+                "SlideShow.PlayPause": [],
+                "SlideShow.PreviousSlide": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": []
+            },
+            "id": "slideshow",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "reklam",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "files": [
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/bi dünya/1.gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/bi dünya/2 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/bi dünya/2 (1).png"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/bi dünya/2 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/bi dünya/2 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/bi dünya/2 (4).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/bi dünya/2 (5).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (4).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (5).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (6).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (7).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (8).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (9).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (10).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (11).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (12).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (13).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (14).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/enka/1 (15).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/özay butik/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/özay butik/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/özay butik/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/özay butik/1 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/özay butik/1 (4).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/özay butik/1 (5).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/sabah giyim/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/sabah giyim/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/sabah giyim/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/sabah giyim/1 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/sabah giyim/1 (4).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/sabah giyim/1 (5).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/ziyaret ticaret/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/ziyaret ticaret/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/ziyaret ticaret/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/ziyaret ticaret/1 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/ziyaret ticaret/1 (4).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/ziyaret ticaret/1 (5).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/ziyaret ticaret/1 (6).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/ziyaret ticaret/1 (7).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/develi bld/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/develi bld/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/develi bld/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/develi bld/1 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/hasret/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/hasret/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/hasret/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/hasret/1 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/hasret/1 (4).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/hasret/1 (5).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/hasret/1 (6).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/benian/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/benian/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/benian/1 (2).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/benian/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/benian/1 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/benian/1 (4).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/benian/1 (5).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/benian/1 (6).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/sevilla/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/sevilla/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/sevilla/1 (2).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (1).png"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (4).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (5).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (6).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (7).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (8).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (9).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/pilot garaj/1 (10).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/dev duş/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/dev duş/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/dev duş/1 (1).png"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/dev duş/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/dev duş/1 (2).png"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/dev duş/1 (3).png"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/öztürk teknik/1 (1).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/öztürk teknik/1 (1).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/öztürk teknik/1 (2).gif"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/öztürk teknik/1 (2).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/öztürk teknik/1 (3).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/öztürk teknik/1 (4).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/öztürk teknik/1 (5).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/öztürk teknik/1 (6).jpg"
+                    },
+                    {
+                        "value": "C:/Users/user/Documents/RADYO TV,/reklam/öztürk teknik/1 (7).jpg"
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "otomatik yayın",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/text (1).gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "yazıı",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/98.2.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "EFEKT",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/gif/Yeni klasör/gifsanimados156.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Chroma Anahtarı",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "key_color_type": "blue",
+                        "similarity": 339
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "r",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/radyo1.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "98-2",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 0,
+                "bk_opacity": 80,
+                "color": 255,
+                "font": {
+                    "face": "Arial",
+                    "flags": 3,
+                    "size": 36,
+                    "style": ""
+                },
+                "text": "98.2 Mhz"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Kaydır",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "speed_x": 50.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "kayan yazı",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 255,
+                "bk_opacity": 80,
+                "chatlog": false,
+                "font": {
+                    "face": "Arial Black",
+                    "flags": 1,
+                    "size": 36,
+                    "style": ""
+                },
+                "text": "ERCİYES FM GÜNCEL HABERLER.....Develi Belediye Başkanı Mehmet Cabbar 10 Ocak Gazeteciler Gününde Gazetecilerle Buluştu.....Başkan Akdeniz:Sarıkamış Allahu Ekber Dağlarında Bu Ülke İçin Canlarını Feda Ettiler ...Develi Kaymakamı Murat Duru Kayseri Valiliği’nin Erciyes’de düzenlemiş olduğu Sarıkamış Şehitlerini anma proğramına katıldı....Develili Amine Feryal Şeker “Genç Nida Kur’anı Kerim” Güzel Okuma Yarışmasında Kayseri Birincisi Oldu .......AK PARTİ KAYSERİ MİLLETVEKİLLERİNDEN YEŞİLHİSAR TEŞKİLATINA ZİYARET.......Develi’de Oto Teyp Hırsızları Yakalandı....Develi Emniyeti Hırsızlara Göz Açtırmıyor.....Yeşilhisar İçemece Yaz Kış Hizmete Devam Ediyor.....DEVELİ BELEDİYE SPOR KAYAK KULÜBÜNDEN BÜYÜK BAŞARI......DEVELİ BELEDİYESİ’NDE TAŞERON İŞÇİLERİN KADRO BAŞVURULARI BAŞLADI.....Develi Ak Parti Gençlik Kollarında Kan Değişimi......Ak Parti Grup Başkanvekili Elitaş: “Mhp İle İttifakımız Koltuk Ve Seçim İttifakı Değil”......Ak Parti Develi İlçe Teşkilatı Ocak Ayı Meclis Toplantısını Yaptı.....İçmece Şifa Dağıtmaya Devam Ediyor......... Mustafa Yıldızdoğan Develi Ülkü Ocaklarını Ziyaret Etti.....www.erciyesfm.com.tr internet site adresimiz hizmetinizde.güncel haberler için bizi takipedin.....",
+                "valign": "center"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Kaydır",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "speed_x": 30.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "REKLAM YAZI",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 255,
+                "bk_opacity": 80,
+                "font": {
+                    "face": "Arial Black",
+                    "flags": 1,
+                    "size": 24,
+                    "style": ""
+                },
+                "text": "SABAH GİYİM SPONSORLUĞUNDA YAYINIMIZ DEVAM EDİYOR!.....  Reklam ve ilanlarınız için 0542 571 02 14 - 0537 558 86 28  GÜNCEL HABERLERİNİZ İÇİN www.erciyesfm.com.tr takip edebilirsiniz....REKLAMLARINIZ İÇİN ..0542 571 02 14...0537 558 86 28.....\t"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.98 h": [],
+                "libobs.hide_scene_item.98-2": [],
+                "libobs.hide_scene_item.BAYRAK": [],
+                "libobs.hide_scene_item.Canlı yayın 2": [],
+                "libobs.hide_scene_item.Haber metin": [],
+                "libobs.hide_scene_item.Haber saati": [],
+                "libobs.hide_scene_item.REKLAM YAZI": [],
+                "libobs.hide_scene_item.analogo": [],
+                "libobs.hide_scene_item.canlı yayın": [],
+                "libobs.hide_scene_item.haber 1": [],
+                "libobs.hide_scene_item.haber 2": [],
+                "libobs.hide_scene_item.haber 3": [],
+                "libobs.hide_scene_item.haber 4": [],
+                "libobs.hide_scene_item.haber 5": [],
+                "libobs.hide_scene_item.kayan yazı": [],
+                "libobs.hide_scene_item.r": [],
+                "libobs.hide_scene_item.sn": [],
+                "libobs.hide_scene_item.tema1": [],
+                "libobs.show_scene_item.98 h": [],
+                "libobs.show_scene_item.98-2": [],
+                "libobs.show_scene_item.BAYRAK": [],
+                "libobs.show_scene_item.Canlı yayın 2": [],
+                "libobs.show_scene_item.Haber metin": [],
+                "libobs.show_scene_item.Haber saati": [],
+                "libobs.show_scene_item.REKLAM YAZI": [],
+                "libobs.show_scene_item.analogo": [],
+                "libobs.show_scene_item.canlı yayın": [],
+                "libobs.show_scene_item.haber 1": [],
+                "libobs.show_scene_item.haber 2": [],
+                "libobs.show_scene_item.haber 3": [],
+                "libobs.show_scene_item.haber 4": [],
+                "libobs.show_scene_item.haber 5": [],
+                "libobs.show_scene_item.kayan yazı": [],
+                "libobs.show_scene_item.r": [],
+                "libobs.show_scene_item.sn": [],
+                "libobs.show_scene_item.tema1": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "HABER SAATİ",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 29,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": true,
+                        "name": "tema1",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 29,
+                        "locked": true,
+                        "name": "canlı yayın",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 25,
+                        "locked": true,
+                        "name": "Canlı yayın 2",
+                        "pos": {
+                            "x": 897.0,
+                            "y": 123.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.1968749761581421,
+                            "y": 1.1958333253860474
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 23,
+                        "locked": true,
+                        "name": "haber 5",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 22,
+                        "locked": true,
+                        "name": "haber 4",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 21,
+                        "locked": true,
+                        "name": "haber 3",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 20,
+                        "locked": true,
+                        "name": "haber 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1315.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 14,
+                        "locked": false,
+                        "name": "haber 1",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "locked": true,
+                        "name": "analogo",
+                        "pos": {
+                            "x": 993.0,
+                            "y": 63.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 7,
+                        "locked": false,
+                        "name": "REKLAM YAZI",
+                        "pos": {
+                            "x": 212.0,
+                            "y": 660.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.5,
+                            "y": 2.5
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 11,
+                        "locked": true,
+                        "name": "r",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 613.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.15759849548339844,
+                            "y": 0.15777777135372162
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "locked": true,
+                        "name": "BAYRAK",
+                        "pos": {
+                            "x": -120.0,
+                            "y": -52.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.87400001287460327,
+                            "y": 0.8730158805847168
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": true,
+                        "name": "kayan yazı",
+                        "pos": {
+                            "x": 234.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.75,
+                            "y": 1.75
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 10,
+                        "locked": true,
+                        "name": "98-2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 656.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.7761193513870239,
+                            "y": 1.7777777910232544
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 12,
+                        "locked": true,
+                        "name": "98 h",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 664.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 17,
+                        "locked": true,
+                        "name": "Haber saati",
+                        "pos": {
+                            "x": 1038.0,
+                            "y": 379.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 18,
+                        "locked": true,
+                        "name": "sn",
+                        "pos": {
+                            "x": 25.0,
+                            "y": 144.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.8571428656578064,
+                            "y": 0.85740399360656738
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 19,
+                        "locked": true,
+                        "name": "Haber metin",
+                        "pos": {
+                            "x": 183.0,
+                            "y": 601.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.6422156095504761,
+                            "y": 1.6388888359069824
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Chroma Anahtarı",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "key_color_type": "green"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "BAYRAK",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/gif/asker.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Kaydır",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "speed_x": 75.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "KAYANYAZI",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 255,
+                "bk_opacity": 100,
+                "color": 16777215,
+                "font": {
+                    "face": "Tahoma",
+                    "flags": 1,
+                    "size": 36,
+                    "style": ""
+                },
+                "text": " GÜNCEL HABERLER İÇİN    www.erciyesfm.com.tr....,  YAYINIMIZ OTOMATİK OLARAK DEVAM EDİYOR REKLAM VE İLANLARINIZ İÇİN İRTİBAT NUMARASI 0542 571 02 14   0537  558 86 28"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "analogo",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/gif/Yeni klasör/animatedImage_boelsWotse2177.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "tema4",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/RESİM/tema1.jpg"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Kaydır",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "speed_y": 2.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "tema2",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/logo.jpg"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "tema1",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/gif/haberrrr.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "arkatema",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/RESİM/fon_161.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.BAYRAK": [],
+                "libobs.hide_scene_item.Canlı yayın": [],
+                "libobs.hide_scene_item.EFEKT": [],
+                "libobs.hide_scene_item.KAYANYAZI": [],
+                "libobs.hide_scene_item.Reklam kuşağı": [],
+                "libobs.hide_scene_item.analogo": [],
+                "libobs.hide_scene_item.arkatema": [],
+                "libobs.hide_scene_item.hava durumu": [],
+                "libobs.hide_scene_item.otomatik yayın": [],
+                "libobs.hide_scene_item.reklam": [],
+                "libobs.hide_scene_item.tema1": [],
+                "libobs.hide_scene_item.tema2": [],
+                "libobs.hide_scene_item.tema4": [],
+                "libobs.hide_scene_item.yazıı": [],
+                "libobs.show_scene_item.BAYRAK": [],
+                "libobs.show_scene_item.Canlı yayın": [],
+                "libobs.show_scene_item.EFEKT": [],
+                "libobs.show_scene_item.KAYANYAZI": [],
+                "libobs.show_scene_item.Reklam kuşağı": [],
+                "libobs.show_scene_item.analogo": [],
+                "libobs.show_scene_item.arkatema": [],
+                "libobs.show_scene_item.hava durumu": [],
+                "libobs.show_scene_item.otomatik yayın": [],
+                "libobs.show_scene_item.reklam": [],
+                "libobs.show_scene_item.tema1": [],
+                "libobs.show_scene_item.tema2": [],
+                "libobs.show_scene_item.tema4": [],
+                "libobs.show_scene_item.yazıı": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "ERCİYES FM BAND",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 37,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "locked": true,
+                        "name": "tema4",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "locked": true,
+                        "name": "arkatema",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": true,
+                        "name": "tema1",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": true,
+                        "name": "tema2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 28,
+                        "locked": true,
+                        "name": "reklam",
+                        "pos": {
+                            "x": 463.0,
+                            "y": 119.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.39892578125,
+                            "y": 0.39895698428153992
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1280.0,
+                            "y": 720.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 23,
+                        "locked": true,
+                        "name": "Canlı yayın",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "locked": true,
+                        "name": "KAYANYAZI",
+                        "pos": {
+                            "x": 234.99998474121094,
+                            "y": 650.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.933354377746582,
+                            "y": 1.9444444179534912
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 15,
+                        "locked": true,
+                        "name": "BAYRAK",
+                        "pos": {
+                            "x": -96.0,
+                            "y": -33.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.64200001955032349,
+                            "y": 0.64126986265182495
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 17,
+                        "locked": true,
+                        "name": "analogo",
+                        "pos": {
+                            "x": 885.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.3763066530227661,
+                            "y": 1.3815789222717285
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 25,
+                        "locked": true,
+                        "name": "EFEKT",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 613.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.53719007968902588,
+                            "y": 0.53409093618392944
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 26,
+                        "locked": true,
+                        "name": "yazıı",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 664.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0613207817077637,
+                            "y": 1.0535714626312256
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 27,
+                        "locked": true,
+                        "name": "otomatik yayın",
+                        "pos": {
+                            "x": 178.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.94392526149749756,
+                            "y": 0.94444441795349121
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 30,
+                        "locked": true,
+                        "name": "Reklam kuşağı",
+                        "pos": {
+                            "x": 459.0,
+                            "y": 69.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.1666666269302368,
+                            "y": 1.1578947305679321
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 31,
+                        "locked": true,
+                        "name": "hava durumu",
+                        "pos": {
+                            "x": -362.0,
+                            "y": 358.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.4362499713897705,
+                            "y": 1.4366666078567505
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Canlı yayın",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "deactivate_when_not_showing": true,
+                "last_video_device_id": "A4 TECH HD PC Camera:\\\\?\\usb#22vid_0ac8&pid_3500&mi_00#226&197c435a&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_device_id": "A4 TECH HD PC Camera:\\\\?\\usb#22vid_0ac8&pid_3500&mi_00#226&197c435a&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 2,
+            "hotkeys": {
+                "VLCSource.PlayPause": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "vlc_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "haber 1",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "playlist": [
+                    {
+                        "value": "C:/Users/user/Desktop/DEVELİ BELEDİYESİ 44 AYLIK FAALİYET PLANI.mp4"
+                    },
+                    {
+                        "value": "C:/Users/user/Desktop/MAHMUT KILINÇ.mp4"
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Kaydır",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "speed_x": 0.0,
+                        "speed_y": 7.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Reklam kuşağı",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color1": 4278190335,
+                "color2": 4278255615,
+                "drop_shadow": true,
+                "font": {
+                    "face": "Tahoma",
+                    "flags": 1,
+                    "size": 32,
+                    "style": ""
+                },
+                "outline": true,
+                "text": "* Reklam kuşağı *"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "canlı yayın",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "last_video_device_id": "A4 TECH HD PC Camera:\\\\?\\usb#22vid_0ac8&pid_3500&mi_00#226&197c435a&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_device_id": "A4 TECH HD PC Camera:\\\\?\\usb#22vid_0ac8&pid_3500&mi_00#226&197c435a&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+            },
+            "sync": 0,
+            "volume": 0.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "SlideShow.NextSlide": [],
+                "SlideShow.PlayPause": [],
+                "SlideShow.PreviousSlide": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": []
+            },
+            "id": "slideshow",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "sponsor resim slayt",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "files": [
+                    {
+                        "value": "C:/Users/user/Desktop/SSSSSSS.jpg"
+                    }
+                ],
+                "slide_mode": "mode_manual",
+                "use_custom_size": "1280x720"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "hava durumu",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "is_local_file": true,
+                "local_file": "C:/Users/user/Documents/RADYO TV,/link/develi hava.html"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "VLCSource.PlayPause": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "vlc_source",
+            "mixers": 255,
+            "monitoring_type": 2,
+            "muted": true,
+            "name": "son dakika video haber",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "playlist": [
+                    {
+                        "value": "C:/Users/user/Desktop/yiğit organizasyon/AndroVid_join_6184.mp4"
+                    }
+                ],
+                "shuffle": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Hareketli yazı",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/kar manzara.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Chroma Anahtarı",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "key_color": 0,
+                        "key_color_type": "green",
+                        "similarity": 30
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Görüntü",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/user/Documents/RADYO TV,/gif/asker14hp8.gif"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "SlideShow.NextSlide": [],
+                "SlideShow.PlayPause": [],
+                "SlideShow.PreviousSlide": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": []
+            },
+            "id": "slideshow",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "KAYIP",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "files": [
+                    {
+                        "value": "C:/Users/user/Desktop/28312734_10156371984708938_1461872460_o.jpg"
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        }
+    ],
+    "transition_duration": 300,
+    "transitions": []
+}

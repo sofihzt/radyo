@@ -1,0 +1,11 @@
+{
+    "bitrate": 600,
+    "buffer_size": 4000,
+    "keyint_sec": 3,
+    "preset": "fast",
+    "profile": "",
+    "rate_control": "CBR",
+    "tune": "film",
+    "use_bufsize": false,
+    "x264opts": "3"
+}
